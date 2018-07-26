@@ -8,6 +8,14 @@ Site com conteúdo das memorias da Marca de servidores Planetacraft_BR, anos div
 <br>ou<br>
 <a href="https://www.planetacraft.com.br/" target="_blank">Ver Demo</a><br>
 <a href="https://www.planetacraft.com.br/" target="_blank">https://www.planetacraft.com.br/</a>
+
+
+# Leia a Matéria
+<a href="https://projeto.planetsweb.com.br/detalhes/servidor-planetacraft-br">Ler matéria</a>
+<br>ou<br>
+<a href="https://projeto.planetsweb.com.br/detalhes/servidor-planetacraft-br">https://projeto.planetsweb.com.br/detalhes/servidor-planetacraft-br</a>
+
+
 <hr>
 <b>Preview:</b>
 <br>
