@@ -128,7 +128,7 @@
                                 <hr><br>
 
                                     <div class="gamma-container gamma-loading" id="gamma-container">
-                                        <ul class="gamma-gallery">
+                                        <ul class="gamma-gallery" id="FotosHTMLprint">
 <script>
 
 var dir = 'img/galeria/' // Pasta Minhas imagens
@@ -136,14 +136,18 @@ var dir = 'img/galeria/' // Pasta Minhas imagens
 var num = '40' // Limite a mostrar
 
     window.onload = function(){
+	    
+	    var fotosHTML = '';
 
         for (var i = 1; i <= num; i++) {
             var img_name = 'Planetacraft_BR-'+i+'.jpg';
             var img_dir = dir+'/Planetacraft_BR-'+i+'.jpg';
 
-        document.body.innerHTML += '<li><div data-alt="'+img_name+'" data-description="<h3><i class=\'fa fa-expand\' aria-hidden=\'true\'></i> '+img_name+' <i class=\'fa fa-expand\' aria-hidden=\'true\'></i></h3>" data-max-width="1800" data-max-height="1350"><div data-src="'+img_dir+'"></div><noscript><img src="'+img_dir+'" alt="'+img_name+'" /></noscript></div></li>"';
+        fotosHTML += '<li><div data-alt="'+img_name+'" data-description="<h3><i class=\'fa fa-expand\' aria-hidden=\'true\'></i> '+img_name+' <i class=\'fa fa-expand\' aria-hidden=\'true\'></i></h3>" data-max-width="1800" data-max-height="1350"><div data-src="'+img_dir+'"></div><noscript><img src="'+img_dir+'" alt="'+img_name+'" /></noscript></div></li>"';
 
         }
+	    
+	    document.getElementById("FotosHTMLprint").innerHTML = fotosHTML;
     }
 
 </script>
