@@ -411,7 +411,7 @@ var Gamma = (function() {
 				$( '<img/>' ).attr( {
 					alt : $picEl.data( 'alt' ),
 					title : $picEl.data( 'title' ),
-					src : $picEl.data( 'src' )
+					src : $item.data(' source')
 				} ).insertAfter( $picEl );
 
 				$picEl.remove();
